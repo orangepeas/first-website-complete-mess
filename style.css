@@ -1,0 +1,73 @@
+/* this is a comment*/
+
+*{
+    animation: fade 1s;  /* fades in everything within 1 second, the asterisk means all*/
+}
+
+@keyframes fade{  /* keyframes for the animation are opacity, i think it linearly interpolates */
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }  
+}
+
+.body-class{
+    /* background-color: lightcoral; */
+    background: linear-gradient(to left, lightcoral, brown);
+    color:lemonchiffon;
+    font-family:Arial, Helvetica, sans-serif   
+}
+
+.header-class{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: saddlebrown;
+    background-image: url(mom\'s\ phone\ number.png);
+    background-size: 30px, 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+    border: 10px solid rgb(200,130,1);
+    padding: 10px 500px 500px 10px;
+    margin: 0px 300px 0px 300px;
+    font-size: 56px;
+    
+}
+
+img{
+    float:right;
+    width:700px;  /* to get this to work properly we had to remove the height settings from the images */
+    clear:right; /*means that a right edge cannot be adjacent to another box*/
+}
+
+table, th, td{
+    border: 1px solid;
+}
+
+h1{
+    color:lawngreen  /* makes every <h1> the same colour */
+}
+
+video{
+    height: 700px;
+    width: 700px;
+    float:right;
+    clear:right;
+}
+
+.bigsteve-class{
+    width: 1920px;
+    overflow:scroll;
+}
+
+.tinystevehead-class{
+    width: 50px;
+    height: 20px;
+    float: bottom;
+    clear:top;
+}
+
+p{
+    background: linear-gradient(to right, lavender, magenta)
+}
